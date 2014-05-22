@@ -1,0 +1,15 @@
+https://docs.google.com/presentation/d/1xxPJi0qSUR11D5DXGGWwjHSYfqh-61Dc9DWpnB59y_E/edit?usp=sharing
+
+1. 
+Repaso de lo visto en la clase anterior. Revisar ejercicios sobre los CVs maquetados.
+
+2. 
+Crear un nuevo HTML, con varios cuerpos de texto, aplicar Reset primero.
+Duplicar el HTML y ahora aplicar Normalize.
+
+3. 
+Crear un HTML nuevo.
+Aplicar Reset o Normalize.
+Crear varios divs, con diferentes clases.
+Ponerles Cuerpos de texto dentro.
+Se trabajará el Box Model / Float / Position en este HTML
