@@ -1,0 +1,71 @@
+header {
+	height: 108px;
+}
+#presentacion {
+	height: 858px;
+	background-color: #134a72;
+}
+#services {
+	height: 662px;
+}
+#about {
+	height: 808px;
+	background-color: #fafafa;
+}
+footer {
+	height: 195px;
+	background-color: #282a32;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* Estilos Header */
+#logo {
+	height: 26px;
+	width: 75px;
+	margin-top: 40px;
+	float: left;
+	background-image: url('../img/vela.png');
+}
+#logo a {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9999px;
+}
+#mainnav {
+	height: 26px;
+	width: 730px;
+	margin-top: 40px;
+	float: right;
+}
+
+/* Estilos Services*/
+#services h4{
+	margin-top: 115px;
+	font-size: 30px;
+	text-align: center;
+	color: #666;
+}
+#services h5 {
+	font-size: 18px;
+	text-align: center;
+	color: #858585;
+}
+#services .service {
+	width: 265px;
+	margin: 80px 10px 0;
+	float: left;
+	text-align: center;
+}
+.service  h2 {
+	font-size: 20px;
+	color: #666;
+}
+.service p {
+	font-size: 14px;
+	color: #858585;
+}
