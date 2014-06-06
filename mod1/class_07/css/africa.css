@@ -1,0 +1,69 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	/*height: 2000px;*/
+}
+.africa {
+	background-color: #C9BE7D;
+	background-image: 
+		url('../img/lioness-1.png'), 
+		url('../img/lion.png'), 
+		url('../img/zebra.png'), 
+		url('../img/savanna.jpg') ;
+	background-repeat: 
+		no-repeat, 
+		no-repeat, 
+		no-repeat, 
+		no-repeat;
+	background-attachment: 
+		scroll, 
+		scroll, 
+		scroll, 
+		fixed;
+	background-size: 
+		30%, 
+		30%, 
+		30%, 
+		cover;
+	background-position: 
+		right bottom, 
+		70% 100%, 
+		left bottom, 
+		center bottom;
+}
+/*.cebra {
+	background-image: url('../img/zebra.png');
+	width: 300px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left bottom;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.leon {
+	background-image: url('../img/lion.png');
+	width: 300px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+	position: fixed;
+	bottom: 0;
+	right: 200px;
+}
+.leona {
+	background-image: url('../img/lioness-1.png');
+	width: 300px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right bottom;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}*/

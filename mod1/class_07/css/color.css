@@ -1,0 +1,38 @@
+div.wrapper {
+	width: 1240px;
+	margin: 0 auto;
+}
+div.huge {
+	width: 400px;
+	margin-right: 20px;
+	float: left;
+}
+div.huge:last-child {
+	margin-right: 0;
+}
+div.modulo {
+	width: 400px;
+	height: 400px;
+	box-sizing: border-box;
+	margin: 20px 0;
+	padding: 10px;
+	border: 1px solid #000;
+	position: relative;
+	float: left;
+}
+div.modulo div.mini {
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px dashed #000;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+div.last {
+	margin-right: 0;
+}
+h1 {
+	text-align: center;
+}
