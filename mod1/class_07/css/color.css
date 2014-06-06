@@ -36,3 +36,26 @@ div.last {
 h1 {
 	text-align: center;
 }
+#hexa {
+	background-color: #FF00BC;
+}
+#hexa .mini {
+	background-color: #0100FF;
+	color: #fff;
+	opacity: 0.5;
+}
+#rgb {
+	background-color: rgb(0,255,205);
+}
+#rgb .mini {
+	background-color: rgba(232,52,69,0.5);
+}
+#rgb+h1{
+	color: rgb(52,151,232);
+}
+#hsl {
+	background-color: hsl(118, 100%, 70%);
+}
+#hsl .mini {
+	background-color: hsla(22,67%,50%,0.8);
+}
