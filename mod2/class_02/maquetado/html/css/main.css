@@ -141,8 +141,48 @@ header li a {
   float: right;
   width: 300px;
 }
-
-
+#sidebar .widget {
+  padding: 10px;
+  background-color: rgb(247, 241, 237);
+ }
+#sidebar .widget h5 {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 120%;
+  color: rgb(68, 38, 3);
+  border-bottom: 2px solid rgb(125, 99, 87);
+}
+#sidebar .widget li {
+  margin-bottom: 5px;
+  padding: 5px 10px 8px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 120%;
+  color: rgb(89, 68, 44);
+  border-bottom: 1px solid rgb(191, 135, 134);
+}
+#sidebar .widget li:last-child {
+  border-bottom: none;
+}
+#sidebar .widget li a {
+  text-decoration: none;
+  color: rgb(68, 38, 3);
+}
+#sidebar .widget li a:hover {
+  text-decoration: underline;
+}
+footer {
+  padding: 45px 0;
+  background-color: rgb(140, 119, 74);
+  color: rgb(255, 255, 255);
+}
+footer p {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 
 
 
