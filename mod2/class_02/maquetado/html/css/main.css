@@ -1,5 +1,6 @@
 body {
   font-family: 'Istok Web', sans-serif;
+  background-color: rgb(247, 241, 237);
 }
 
 .group:before, .group:after { content: ""; display: table; }
@@ -8,6 +9,10 @@ body {
 .container {
   width: 960px;
   margin: 0 auto;
+}
+.content {
+  padding: 20px 10px;
+  background-color: rgb(255, 255, 255);
 }
 
 header {
@@ -41,7 +46,31 @@ header li a {
   text-decoration: none;
   padding: 0 16px;
 }
-
+#destacado {
+  overflow: hidden;
+  padding: 0 0 20px 0;
+  border-bottom: 2px solid rgb(125, 99, 87);
+}
+#destacado>img {
+  float: right;
+  margin-left: 20px;
+}
+#destacado>h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 120%;
+  color: rgb(51, 51, 51);
+}
+#destacado>p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(51, 51, 51);
+}
+#destacado>p:last-child{
+  margin-bottom: 0;
+} 
 
 
 
