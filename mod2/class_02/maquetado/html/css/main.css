@@ -1,0 +1,61 @@
+body {
+  font-family: 'Istok Web', sans-serif;
+}
+
+.group:before, .group:after { content: ""; display: table; }
+.group:after { clear: both; }
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(210, 53, 0);
+  color: rgb(255, 255, 255);
+}
+
+header h1 {
+  font-size: 130px;
+  font-weight: 700;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 100px;
+}
+
+header li {
+  float: left;
+  border-left: 1px solid #fff;
+}
+
+header li:first-child {
+  border-left: none;
+}
+
+header li a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 0 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
