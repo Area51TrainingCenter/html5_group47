@@ -127,6 +127,7 @@ header li a {
   color: rgb(68, 38, 3);
 }
 #flujo .noticia>p {
+  font-family: Arial, sans-serif;
   margin-bottom: 10px;
   font-size: 16px;
   line-height: 150%;
