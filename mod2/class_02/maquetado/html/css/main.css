@@ -109,6 +109,33 @@ header li a {
   float: left;
   width: 620px;
 }
+#flujo .noticia {
+  padding-bottom:20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(216, 208, 204);
+  overflow: hidden;
+}
+#flujo .noticia>img {
+  float: left;
+  margin-right: 20px;
+} 
+#flujo .noticia>h1 {
+  margin-bottom: 5px;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 120%;
+  color: rgb(68, 38, 3);
+}
+#flujo .noticia>p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(51, 51, 51);
+}
+#flujo .noticia>p:last-child{
+  margin-bottom: 0;
+} 
+
 #sidebar {
   float: right;
   width: 300px;
