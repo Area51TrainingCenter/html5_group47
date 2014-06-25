@@ -1,0 +1,26 @@
+@media screen and (max-width: 1024px) {
+	body {
+		font-size: 14px;
+	}
+	article.top {
+		background-color: rgb(101,209,84);
+	}
+	article.bottom {
+		background-color: rgb(84,170,209);
+	}
+	article:nth-child(3){
+		background-color: rgb(209,84,166);
+	}
+}
+@media screen and (min-width: 760px) and (max-width: 980px) {
+	.container {
+		width: 96%;
+	}
+	article.top {
+		width: 49%;
+		margin-right: 2%;
+	}
+	article:nth-child(3){
+		margin-right: 0;
+	}
+}
