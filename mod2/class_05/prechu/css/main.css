@@ -172,17 +172,46 @@ body {
 		padding: 20px 40px;
 	}
 	.slide img {
-	width: 177px;
-	height: auto;
+		width: 177px;
+		height: auto;
 	}
 	.slide h2 {
-	font-size: 1.875em;
+		font-size: 1.875em;
 	}
 	.slide p {
-	font-size: 1.375em;
+		font-size: 1.375em;
 	}
 	.slide .signup {
 		margin-left: 235px;
+	}
+	#services {
+		margin: 0; 
+	}
+	.service {
+		width: 100%;
+		margin: 0;
+		padding: 20px;
+		text-align: left;
+		border-bottom: 1px solid #ccc;
+	}
+	.service a {
+		text-decoration: none;
+	}
+	.service a img {
+		float: left;
+		width: 135px;
+		height: auto;
+		margin-right: 20px;
+	}
+	.service a h2 {
+		margin-bottom: 5px;
+		font-size: 2.1em;
+		color: rgb(80, 148, 242);
+	}
+	.service a p {
+		margin-top: 0;
+		font-size: 1.2em;
+		color: rgb(108, 108, 108);
 	}
 	
 }
