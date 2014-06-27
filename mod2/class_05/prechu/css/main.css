@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#slider {
+	height: 485px;
+	background-image: url('../img/bg-zigzag.png'), url('../img/bg-banner.jpg');
+	background-repeat: repeat-x, repeat-x;
+	background-position: bottom center, center center;
+}
