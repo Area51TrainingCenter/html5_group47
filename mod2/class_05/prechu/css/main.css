@@ -147,3 +147,43 @@ body {
 	font-size: 0.85em;
 	color: rgb(108, 108, 108);
 }
+
+
+
+
+
+@media screen and (max-width: 640px) {
+	.container {
+		width: 100%;
+		margin: 0;
+	}
+	#header #mainnav ul{
+		display: none;
+	}
+	#slider {
+		height: auto;
+		padding: 20px 0;
+		background-image: url('../img/bg-banner.jpg');
+	}
+	.arrowright, .arrowleft{
+		display: none;
+	}
+	.slide {
+		padding: 20px 40px;
+	}
+	.slide img {
+	width: 177px;
+	height: auto;
+	}
+	.slide h2 {
+	font-size: 1.875em;
+	}
+	.slide p {
+	font-size: 1.375em;
+	}
+	.slide .signup {
+		margin-left: 235px;
+	}
+	
+}
+
