@@ -42,3 +42,35 @@ body {
 .btn:hover {
 	background-color: #6387AA;
 }
+
+/* Tranformaciones */
+.set:nth-child(1) .btn:hover+.box {
+	background-color: #FDB2FF;
+	-webkit-transform: translate(100px, 150px);
+	transform: translate(100px, 150px);
+	transition: background-color 1s ease-in, -webkit-transform 500ms ease-in 500ms;
+}
+.set:nth-child(2) .btn:hover+.box {
+	-webkit-transform: scale(2,3);
+}
+.set:nth-child(3) .btn:hover+.box {
+	-webkit-transform: rotate(45deg);
+}
+.set:nth-child(4) .btn:hover+.box {
+	-webkit-transform: skew(30deg, 15deg);
+}
+.set:nth-child(5) .btn:hover+.box {
+	-webkit-transform: translatey(300px);
+}
+.set:nth-child(6) .btn:hover+.box {
+	-webkit-transform: scale(2.66,0.5);
+	-webkit-transform-origin: 0% 0%;
+}
+.set:nth-child(7) .btn:hover+.box {
+	-webkit-transform: rotate(45deg) skew(20deg, 20deg);
+}
+.set:nth-child(8) .btn:hover+.box {
+	-webkit-transform: translate(450px, -300px) scale(2,2) rotate(45deg);
+}
+
+
