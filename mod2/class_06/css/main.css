@@ -33,6 +33,7 @@ body {
 .btn {
 	float: right;
 	padding: 10px;
+	margin: 50px 0 0;
 	background-color: #93ACC4;
 	border-radius: 5px;
 	color: #fff;
