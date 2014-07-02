@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #e5e5e5;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+h1, h2 {
+	margin: 0;
+}
+article {
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+article section{
+	position: absolute;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.75);
+	opacity: 0;
+	transition: bottom 1s ease, opacity 1s ease;
+}
+article img {
+	width: 100%;
+	display: block;
+}
+article a {
+	color: #fff;
+	text-decoration: none;
+}
+article a:hover section {
+	opacity: 1;
+	display: block;
+	bottom: 0;
+	transition: bottom 1s ease, opacity 1s ease;
+}
+article.huge {
+	width: 640px;
+	margin-right: 20px;
+}
+article.huge section {
+	bottom: -162px;
+}
+article.small {
+	width: 300px;
+	margin-bottom: 23px;
+}
+article.small:last-child {
+	margin-bottom: none;
+}
+article.small section {
+	bottom: -104px;
+}
