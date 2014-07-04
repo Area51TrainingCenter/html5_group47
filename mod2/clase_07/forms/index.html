@@ -11,11 +11,22 @@
 		<form action="#" method="post">
 			<div class="row">
 				<label for="">Nombre:</label>
-				<input id="nombre" type="text">
+				<input id="nombre" type="text" placeholder="Ingresa tu nombre aquí">
 			</div>
 			<div class="row">
 				<label for="apellidos">Apellidos:</label>
 				<input id="apellidos" type="text">
+			</div>
+			<div class="row">
+				<span>Género:</span>
+				<input type="radio" name="genero" id="masculino" value="masculino"><label class="genero" for="masculino">Masculino</label>
+				<input type="radio" name="genero" id="femenino" value="femenino"><label class="genero" for="femenino">Femenino</label>
+			</div>
+			<div class="row">
+				<span>Hobbies:</span>
+				<input type="checkbox" id="leer" value="leer"><label class="genero" for="leer">Leer</label>
+				<input type="checkbox" id="musica" value="musica"><label class="genero" for="musica">Escuchar musica</label>
+				<input type="checkbox" id="comer" value="comer"><label class="genero" for="comer">Comer</label>
 			</div>
 			<div class="row">
 				<label for="dni">DNI:</label>
@@ -34,12 +45,34 @@
 				<input id="url" type="url">
 			</div>
 			<div class="row">
+				<label for="color">Elige un color:</label>
+				<input id="color" type="color">
+			</div>
+			<div class="row">
+				<label for="date">Elige una fecha:</label>
+				<input id="date" type="date">
+			</div>
+			<div class="row">
+				<label for="time">Time:</label>
+				<input id="time" type="time">
+			</div>
+			<div class="row">
+				<label for="pais">Elige una fecha:</label>
+				<select id="pais">
+					<option>Perú</option>
+					<option>Colombia</option>
+					<optgroup label="Europa">
+						<option>Holanda</option>
+					</optgroup>
+				</select>
+			</div>
+			<div class="row">
 				<label for="comentario">Comentario:</label>
 				<textarea id="comentario"></textarea>
 			</div>
 			<div class="row">
 				<input id="reset" type="reset" value="Reset">
-				<input id="reset" type="reset" value="Submit">
+				<input id="submit" type="submit" value="Submit">
 			</div>
 		</form>
 	</div>
