@@ -31,3 +31,122 @@ body {
 	background-image: url('../img/book.jpg');
 	background-size: cover;
 }
+
+/* HEADER */
+#header {
+	overflow: hidden;
+	height: 168px;
+}
+#header h1 {
+	width: 192px;
+	height: 193px;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 25px;
+}
+#header h1 a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-indent: -9999px;
+}
+#header nav {
+	float: right;
+}
+#header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#header nav ul li {
+	height: 168px;
+	display: inline-block;
+	float: left;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 24px;
+}
+#header nav ul li a {
+	display: block;
+	padding: 100px 20px 50px;
+	color: #fff;
+	text-decoration: none;
+}
+#header nav ul li a:hover {
+	background-image: linear-gradient( to bottom, transparent, #8aab34); 
+}
+
+/* PRESENTATION */
+
+#slider {
+	overflow: hidden;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+}
+#slider a {
+	color: #fff;
+	text-decoration: none;
+}
+#slider h1 {
+	margin: 240px 0 0 20px;
+}
+#slider h1 span{
+	display: inline-block;
+	padding: 8px 10px;
+	margin: 0 0 8px 0;
+	background-color: #8fbb3a;
+	font-size: 83px;
+	font-weight: normal;
+}
+#slider h1 span:last-child{
+	background-color: #1c1c1c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 33px;
+	font-weight: normal;
+}
+#hireus {
+	margin: 10px 0;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	text-align: center;
+}
+#hireus h2 {
+	margin-top: 60px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+}
+#hireus p {
+	padding: 0 220px;
+	font-size: 14px;
+}
+#hireus p a {
+	color: #8aab34;
+	text-decoration: none;
+}
+#hireus p a:hover {
+	text-decoration: underline;
+}
+#hireus .hireus-btn {
+	display: inline-block;
+	width: 139px;
+	height: 45px;
+	margin: 20px 0 55px;
+	background-color: #8aab34;
+	border-radius: 3px;
+	line-height: 45px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#hireus .hireus-btn:hover {
+	background-color: #8fd53c;
+}
+
+/* About */
+.team-member img {
+	width: 121px;
+	height: 121px;
+	border-radius: 65px;
+}
